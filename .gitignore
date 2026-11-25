@@ -1,0 +1,29 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# FER-2013 dataset - do not upload
+data/
+dataset/
+datasets/
+fer2013/
+fer2013.csv
+
+# Training logs and temporary files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local environment settings
+.env
